@@ -11,6 +11,6 @@ Dispone de 5 microservicios:
 - database
 
 Database es un microservicio que utiliza una base de datos noSql (en MongoDb Atlas) desde donde realizan consultas los microservicios character, films y planets.
-Gateway ofrece un unico puerto de acceso (8000), ocultando llos puertos de los resttantes microservicios.
-Database no forma parte del gateway, sino que se conecta mediante una network generada por compose.
+Gateway ofrece un único puerto de acceso (8000), ocultando los puertos de los restantes microservicios.
+Database no forma parte de gateway, sino que se conecta mediante una network generada por compose.
 
